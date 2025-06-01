@@ -1,5 +1,5 @@
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://expense-backend-4zjs.onrender.com';
 
 const handleResponse = async (response) => {
   const contentType = response.headers.get('content-type');
